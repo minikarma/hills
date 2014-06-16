@@ -75,7 +75,7 @@ CREATE INDEX roads_hills_the_geom_gist
 Import data from CSV file:
 
 ```
-COPY roads_hills(osm_id,bicycle,highway,name,angle,a_height,d_height,dist,lines) FROM '/users/karmatsky/hills/export_roads_only.csv' DELIMITERS ';' CSV
+COPY roads_hills(osm_id,bicycle,highway,name,angle,a_height,d_height,dist,lines) FROM 'export_file.csv' DELIMITERS ';' CSV
 ```
 
 Convert linestring coordinates from string values to geometry column:
