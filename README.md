@@ -5,7 +5,7 @@ The tools you need to get the same map are:
 
   *  [PostgreSQL](http://www.postgresql.org/) with [PostGIS](http://postgis.net/) as data local storage
   *  [osm2pgsql](http://wiki.openstreetmap.org/wiki/Osm2pgsql) tool to import OSM data to local
-  *  Any Python interpreter, built-in in modern Mac OS X
+  *  Any Python interpreter
   *  [TileMill](https://www.mapbox.com/tilemill/)
   
   
